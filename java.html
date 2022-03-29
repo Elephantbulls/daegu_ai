@@ -40,5 +40,52 @@
             부가가치세 = 0.1
             alert(가격*부가가치세)
         </script>
+        <h1>Boolean&comparison operator</h1>
+        <script>
+            console.log(true);
+            console.log(false);
+            console.log(1==2);
+            console.log(1>2);
+            console.log(1<2);
+        </script>
+        <h1>Conditional Statements</h1>
+        <script>
+            console.log(1);
+            if(true){
+                console.log(2)
+                console.log(3);
+            }
+            console.log(4);
+        </script>
+        <h1>Javascript</h1>
+        <input type="button" value="login" onclick="
+            let input_id = prompt('아이디가 뭐요?');
+            if(input_id === 'silva'){
+                alert('안녕')
+                } else {
+                    alert('마 니 누고?')
+                }
+            ">
+        <h1>Loop</h1>
+        <script>
+            member = ['egoing', 'duru', 'kate']
+            for(let i=0; i<member.length; i=i+1){
+                document.write('<li>'+member[i]+'</li>');
+            }
+            
+            member = {name:'egoing', city:'seoul'}
+        </script>
+        <h1>Function</h1>
+        <script>
+            function sum(left, right){
+                return left+right;
+            }
+            console.log(sum(10,20));
+        </script>
+        <h1>실습</h1>
+        <input type="button" value="부가세계산기" onclick="
+           let 가격 = Number(prompt('가격?'));
+           alert(가격 * 0.1);
+        ">    
     </body>
 </html>
