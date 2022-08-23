@@ -4,6 +4,10 @@
    text-align: center;
 }
 
+.audio h6{
+    margin: auto;
+}
+
 .title{
     text-align: center;
     color: chocolate;
