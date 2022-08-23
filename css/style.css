@@ -22,11 +22,19 @@
     float: left;
 }
 
+.spec a{
+    color: crimson;
+}
+
 .life{  
     color: royalblue;
     font-size: 2em;
     font-weight: 700;
     float: right;
+}
+
+.life a{
+    color: royalblue;
 }
 
 .unsplash{
@@ -37,4 +45,8 @@
     width: 30%;
     height: 30%;
     
+}
+
+.unsplash h6{
+    margin: auto;
 }
