@@ -50,3 +50,12 @@
 .unsplash h6{
     margin: auto;
 }
+
+footer{
+    margin-top: 10%;
+}
+
+address{
+    text-align: center;
+    color: dimgray;
+}
