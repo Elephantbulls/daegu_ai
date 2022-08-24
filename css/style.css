@@ -51,6 +51,10 @@
     margin: auto;
 }
 
+#disqus_thread{
+    margin-top: 10%;
+}
+
 footer{
     margin-top: 10%;
 }
