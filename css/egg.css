@@ -7,8 +7,24 @@
     font-weight: 1000;
 }
 
+p{
+    margin: 5% auto;
+}
+
 p bdo{
     color: brown;
     font-size: 2em;
     font-weight: 700;
+}
+
+button{
+    border-color: blanchedalmond;
+    color: chartreuse;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.butt{
+    text-align: center;
 }
