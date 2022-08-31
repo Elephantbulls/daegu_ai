@@ -52,21 +52,28 @@
 }
 
 #disqus_thread{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-footer{
-    margin-top: 10%;
-}
-
-address{
+fieldset{
+    border: 15px groove;
     text-align: center;
-    color: dimgray;
+    width: 30%;
+    margin: 3% auto;
 }
 
 table, td{
     border: solid 1px black;
     width: 30%;
     text-align: center;
-    margin: 5% auto;
+    margin: 3% auto;
+}
+
+footer{
+    margin-top: 5%;
+}
+
+address{
+    text-align: center;
+    color: dimgray;
 }
