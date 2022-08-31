@@ -63,3 +63,10 @@ address{
     text-align: center;
     color: dimgray;
 }
+
+table, td{
+    border: solid 1px black;
+    width: 30%;
+    text-align: center;
+    margin: 5% auto;
+}
