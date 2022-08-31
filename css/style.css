@@ -56,10 +56,16 @@
 }
 
 fieldset{
-    border: 15px groove;
+    border: 15px groove brown;
     text-align: center;
     width: 30%;
     margin: 3% auto;
+}
+
+legend{
+    background-color: gold;
+    color: whitesmoke;
+    font-size: 1.5em;
 }
 
 table, td{
