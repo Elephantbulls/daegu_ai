@@ -48,3 +48,17 @@ table, th, td{
     margin: 5% auto;
 }
 
+iframe{ 
+    display: block;
+    width: 25%;
+    margin: 1% auto;
+}
+
+.iframe{
+    text-align: center;
+}
+
+.iframe a{
+    color: black;
+}
+

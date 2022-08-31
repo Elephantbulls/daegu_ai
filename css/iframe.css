@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.unsplash{
+    text-align: center;
+}
+
+.unsplash img{
+    width: 30%;
+}
+
+.unsplash h6{
+    margin: auto;
+}
