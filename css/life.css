@@ -1,8 +1,35 @@
 @charset "utf-8";
 
+p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
 .title{
     text-align: center;
     color: royalblue;
     font-size: 3em;
     font-weight: 1000;
+}
+
+.birth :first-child{
+    color:goldenrod;
+}
+.birth :nth-child(2){
+    color:saddlebrown;
+}
+.birth :nth-last-child(1){
+    color:red;
+}
+
+.word :nth-child(1){
+    color:aqua;
+}
+
+.word :nth-child(2){
+    color:darkgrey;
+}
+
+.word :nth-child(3){
+    color:darkslateblue;
 }
