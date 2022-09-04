@@ -20,7 +20,7 @@
     <article class="spec"><a href="spec.html">My Spec</a></article>
     <article class="life"><a href="life.html">My Life</a></article>
     <div class="unsplash">
-        <img src="./image/zarina-iskarova1.jpg" alt="" usemap="#workmap">
+        <img src="./image/person/zarina-iskarova1.jpg" alt="zarina-iskarova1" usemap="#workmap">
         <map name="workmap">
             <area shape="circle" coords="190,240,40" alt="egg" href="egg.html">
         </map>
@@ -62,7 +62,27 @@
             <td>8</td>
             <td>9</td>
         </tr>
-    </table>      
+    </table>  
+    
+    <form action="./fruit.html">
+    <label for="fruits">Choose a fruit:</label>
+    <select name="fruits" id="fruits">
+        <optgroup label="yellow">
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+        </optgroup>
+        <optgroup label="red">
+            <option value="strawberry">Strawberry</option>
+            <option value="tomato">Tomato</option>
+        </optgroup>    
+        <optgroup label="green">
+            <option value="watermelon">Watermelon</option>
+            <option value="green apple">Green apple</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
 </body>
 <div id="disqus_thread"></div>
 <script>

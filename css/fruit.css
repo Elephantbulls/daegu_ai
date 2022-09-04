@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.fruits{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banana{
+    text-align: center;
+}
+
+.banana img{
+    width: 300px;
+    height: 200px;
+}
+
+.mango{
+    text-align: center;
+}
+
+.mango img{
+    width: 300px;
+    height: 200px;
+}
+
+.strawberry{
+    text-align: center;
+}
+
+.strawberry img{
+    width: 300px;
+    height: 200px;
+}
+
+.tomato{
+    text-align: center;
+}
+
+.tomato img{
+    width: 300px;
+    height: 200px;
+}
+
+.watermelon{
+    text-align: center;
+}
+
+.watermelon img{
+    width: 300px;
+    height: 200px;
+}
+
+.green-apple{
+    text-align: center;
+}
+
+.green-apple img{
+    width: 300px;
+    height: 200px;
+}
