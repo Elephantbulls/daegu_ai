@@ -6,3 +6,8 @@
     text-align: center;
     font-weight: 1000;
 }
+
+pre{
+    background: linear-gradient(to right, green, blue);
+    color: red;
+}
