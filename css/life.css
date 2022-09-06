@@ -33,3 +33,8 @@ p{
 .word :nth-child(3){
     color:darkslateblue;
 }
+
+.dog{
+    background-color: aliceblue;
+    color:khaki
+}
