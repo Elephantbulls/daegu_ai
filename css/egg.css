@@ -53,6 +53,13 @@ table, th, td{
     margin: 5% auto;
 }
 
+.water{
+    text-align: center;
+    font-weight: 700;
+    color: aqua;
+    background: linear-gradient(to top, lightblue, lightgreen, orange);
+}
+
 iframe{ 
     display: block;
     width: 25%;
