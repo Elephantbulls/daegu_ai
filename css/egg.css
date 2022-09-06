@@ -13,7 +13,7 @@
 }
 
 p{
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
 p bdo{
@@ -58,6 +58,12 @@ table, th, td{
     font-weight: 700;
     color: aqua;
     background: linear-gradient(to top, lightblue, lightgreen, orange);
+}
+
+.digit{
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(to left, white, grey)
 }
 
 iframe{ 
