@@ -84,4 +84,6 @@ address{
 
 form{
     text-align: center;
+    border: solid 1px black;
+    margin: 1% auto;
 }
