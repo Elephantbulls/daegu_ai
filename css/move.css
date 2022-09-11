@@ -43,7 +43,7 @@
     animation: mymove3 9s infinite;
     animation-delay: 14s;
     animation-direction: alternate;
-    margin-left: 700px;
+    margin-left: 710px;
 }
 
 @keyframes mymove3 {
