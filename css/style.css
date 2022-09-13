@@ -1,5 +1,40 @@
 @charset "utf-8";
 
+fieldset{
+    border: 15px groove brown;
+    text-align: center;
+    width: 30%;
+    margin: 3% auto;
+}
+
+legend{
+    background-color: gold;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+table, td{
+    border: solid 1px black;
+    width: 30%;
+    text-align: center;
+    margin: 3% auto;
+}
+
+footer{
+    margin-top: 5%;
+}
+
+address{
+    text-align: center;
+    color: dimgray;
+}
+
+form{
+    text-align: center;
+    border: solid 1px silver;
+    margin: 1% auto;
+}
+
 .audio{
    text-align: center;
 }
@@ -13,6 +48,18 @@
     color: chocolate;
     font-size: 3em;
     font-weight: 1000;
+    border: 5px solid salmon;
+    border-bottom-color: darkcyan;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-style: double;
+    border-left-color: bisque;
+    border-left-style: groove;
+    border-right-color: darkorange;
+    border-right-style: dotted;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 5px aqua;
 }
 
 .spec{
@@ -53,37 +100,13 @@
     margin-top: 5%;
 }
 
-fieldset{
-    border: 15px groove brown;
-    text-align: center;
-    width: 30%;
-    margin: 3% auto;
+.green{
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: yellowgreen;
 }
 
-legend{
-    background-color: gold;
-    color: whitesmoke;
-    font-size: 1.5em;
-}
-
-table, td{
-    border: solid 1px black;
-    width: 30%;
-    text-align: center;
-    margin: 3% auto;
-}
-
-footer{
-    margin-top: 5%;
-}
-
-address{
-    text-align: center;
-    color: dimgray;
-}
-
-form{
-    text-align: center;
-    border: solid 1px black;
-    margin: 1% auto;
+.myself{
+    border: solid 5px;
+    border-image: url(../image/fruits/becky-mattson-mango2.jpg) 10% round;
 }
