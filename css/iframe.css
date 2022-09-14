@@ -20,6 +20,12 @@ body {
 
 .unsplash h6{
     margin: auto;
-    border: 10px dotted white;
+    border: 10px dotted yellow;
     background-clip: border-box;
+}
+
+.news{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 5px solid aqua;
 }
