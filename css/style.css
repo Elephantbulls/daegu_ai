@@ -96,17 +96,26 @@ form{
     margin: auto;
 }
 
-#disqus_thread{
-    margin-top: 5%;
+.caret{
+    caret-color: rgb(202, 234, 150);
 }
 
 .green{
     border-collapse: separate;
     border-spacing: 10px;
     background-color: yellowgreen;
+    caption-side: bottom;
+}
+
+.caption{
+    color: green;
 }
 
 .myself{
     border: solid 5px;
     border-image: url(../image/fruits/becky-mattson-mango2.jpg) 10% round;
+}
+
+#disqus_thread{
+    margin-top: 5%;
 }
