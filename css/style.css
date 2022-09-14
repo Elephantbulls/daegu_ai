@@ -84,6 +84,14 @@ form{
     color: royalblue;
 }
 
+.js{
+    float: left;
+    clear: left;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
 .unsplash{
     text-align: center;
 }
