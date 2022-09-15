@@ -84,9 +84,17 @@ form{
     color: royalblue;
 }
 
-.js{
+.counter{
     float: left;
     clear: left;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.flex{
+    float: right;
+    clear: right;
     font-size: 2em;
     font-weight: 700;
     margin-top: 1em;
