@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    counter-reset: my-counter;
+}
+
+h2{
+    counter-reset: sub-counter;
+}
+
+h2::before {
+    counter-increment: my-counter;
+    content: "Section " counter(my-counter) ": "; 
+}
+
+h3::before{
+    counter-increment: sub-counter;
+    content: counter(my-counter) "." counter(sub-counter) " ";
+}
