@@ -17,3 +17,15 @@ h3::before{
     counter-increment: sub-counter;
     content: counter(my-counter) "." counter(sub-counter) " ";
 }
+
+.html{
+    cursor: no-drop;
+}
+
+.css{
+    cursor: wait;
+}
+
+.js{
+    cursor: help;
+}
