@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face{
+    font-family: Nabla;
+    src: url(../font/Nabla/static/Nabla-Regular.ttf);
+}
+
 body {
     background-image: url(../image/atomic-structure/diasi.png);
     background-repeat: repeat-x;
@@ -28,4 +33,9 @@ body {
     column-count: 2;
     column-gap: 100px;
     column-rule: 5px solid aqua;
+    font-family: Nabla;
+}
+
+.goofont{
+    text-align: center;
 }
