@@ -10,4 +10,6 @@
 pre{
     background: linear-gradient(to right, green, blue);
     color: red;
+    max-height: 750px;
+    max-width: 65%;
 }

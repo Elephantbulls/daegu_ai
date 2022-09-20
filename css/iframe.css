@@ -34,6 +34,8 @@ body {
     column-gap: 100px;
     column-rule: 5px solid aqua;
     font-family: Nabla;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 
 .goofont{
