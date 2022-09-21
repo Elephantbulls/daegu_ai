@@ -57,6 +57,8 @@
 .watermelon img{
     width: 300px;
     height: 200px;
+    object-fit: cover;
+    object-position: 0 -70px;
 }
 
 .green-apple{
