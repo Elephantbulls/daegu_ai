@@ -59,7 +59,9 @@ form{
     border-right-style: dotted;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    box-shadow: 0 5px aqua;
+    box-shadow: 0 10px aqua;
+    outline: 4px dashed rosybrown;
+    outline-offset: 0.2px;
 }
 
 .spec{
