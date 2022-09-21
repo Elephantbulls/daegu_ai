@@ -108,6 +108,14 @@ form{
     margin-top: 1em;
 }
 
+.media{
+    float: right;
+    clear: right;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
 .unsplash{
     text-align: center;
 }
