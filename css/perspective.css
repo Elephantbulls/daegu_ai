@@ -10,6 +10,7 @@
 
 .ex1{
     perspective: 1000px;
+    perspective-origin: 60%;
 }
 
 .cube{
