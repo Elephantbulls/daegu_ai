@@ -36,6 +36,8 @@ body {
     font-family: Nabla;
     letter-spacing: 1px;
     line-height: 1.6;
+    overflow: scroll;
+    overflow-y: hidden;
 }
 
 .goofont{
