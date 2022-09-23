@@ -9,6 +9,7 @@
     grid-gap: 10px;
     background-color: red;
     padding: 10px;
+    row-gap: 100px;
 }
 
 .grid-container > div{
