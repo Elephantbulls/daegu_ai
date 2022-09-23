@@ -5,6 +5,10 @@
     src: url(../font/Nabla/static/Nabla-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(../image/atomic-structure/diasi.png);
     background-repeat: repeat-x;
@@ -41,5 +45,9 @@ body {
 }
 
 .goofont{
+    text-align: center;
+}
+
+#up{
     text-align: center;
 }
