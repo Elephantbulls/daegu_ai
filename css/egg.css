@@ -23,6 +23,10 @@ p bdo{
     font-style: italic;
 }
 
+.tab{
+    text-decoration: overline underline line-through wavy rosybrown 3px;
+}
+
 hr{
     border: 2px dotted blue;
     height: 3px;
