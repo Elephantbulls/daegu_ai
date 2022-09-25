@@ -55,3 +55,46 @@
 .left{
     transform: rotateY(-90deg) translateZ(1em);
 }
+
+.transform{
+    position: relative;
+    top: 300px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 1000;
+    color: yellow;
+    background-color: blue;
+    quotes: "<" ">";
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rotate{
+    width: 150px;
+    height: 80px;
+    background-color: yellowgreen;
+    transform: rotate(30deg);  
+}
+
+.skew{
+    width: 150px;
+    height: 80px;
+    background-color: yellowgreen;
+    transform: skewX(30deg);  
+}
+
+.scale{
+    width: 150px;
+    height: 80px;
+    background-color: yellowgreen;
+    transform: scaleX(2);
+    
+}
+
