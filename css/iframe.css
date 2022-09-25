@@ -43,6 +43,7 @@ body {
     overflow: scroll;
     overflow-y: hidden;
     text-indent: 5%;
+    text-transform: uppercase;
 }
 
 .goofont{
