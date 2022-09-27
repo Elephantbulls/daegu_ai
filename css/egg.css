@@ -31,6 +31,12 @@ p bdo{
     visibility: hidden;
 }
 
+.vertical{
+    writing-mode: vertical-rl;
+    color:darkorchid;
+    background-color: cornflowerblue;
+}
+
 hr{
     border: 2px dotted blue;
     height: 3px;
