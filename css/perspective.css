@@ -103,5 +103,18 @@
     background-color: yellowgreen;
     transform: scaleX(2);
     transform-origin: 10%;
+    transition: z-index;
+}
+
+.scale:hover{
+    z-index: -10;
+}
+
+.z{
+    position: absolute;
+    top: 720px;
+    font-size: 2em;
+    color: rgb(158, 11, 11);
+    z-index: -1;
 }
 
