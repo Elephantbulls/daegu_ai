@@ -27,6 +27,10 @@ p bdo{
     text-decoration: overline underline line-through wavy rosybrown 3px;
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 hr{
     border: 2px dotted blue;
     height: 3px;
