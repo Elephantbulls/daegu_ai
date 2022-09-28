@@ -139,6 +139,15 @@ form{
     margin: auto;
 }
 
+.js{
+    font-size: 3em;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 50px;
+    border: 5px solid silver;
+    text-shadow: 2px 2px brown;
+}
+
 .caret{
     caret-color: rgb(202, 234, 150);
 }
