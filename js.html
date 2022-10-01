@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/js.css">
+    <script>
+        function myFunction() {
+            document.getElementById("toe").innerHTML = "Come On Baby, JS."
+        }
+    </script>
 </head>
 <body>
     <h2>What Can JavaScript Do?</h2>
@@ -13,5 +18,11 @@
     <p id="to">A woman wearing a red shirt is picking some fruits in plastic bag.</p>
 
     <button type="button" onclick='document.getElementById("to").innerHTML = "Hello JS!!"'>Come On!</button>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="toe">A woman wearing a blue shirt is picking some fruits in plastic bag.</p>
+
+    <button type="button" onclick="myFunction()">Check it!</button>
 </body>
 </html>
