@@ -10,6 +10,12 @@
         function yourFunction() {
             document.getElementById("toe").innerHTML = "Come On Baby, JS."
         }
+
+        document.write(3+4);
+
+        alert(7+8); // window.alert(7+8);
+
+        console.log(9+10);
     </script>
     <script src="./js/prac.js"></script>
 </head>
@@ -29,5 +35,15 @@
     <p id="toei">A woman wearing a green shirt is picking some fruits in plastic bag.</p>
 
     <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="dig"></p>
+
+    <button type="button" onclick="document.write(5+6)">Remove All except 11</button><br><br><br>
+
+    <button onclick="window.print()">Print this page</button>
+    
+    <script>
+        document.getElementById("dig").innerHTML = 1 + 2;
+    </script>
 </body>
 </html>
