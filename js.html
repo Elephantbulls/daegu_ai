@@ -41,9 +41,19 @@
     <button type="button" onclick="document.write(5+6)">Remove All except 11</button><br><br><br>
 
     <button onclick="window.print()">Print this page</button>
+
+    <p id="pl"></p>
     
     <script>
         document.getElementById("dig").innerHTML = 1 + 2;
+        
+        let x, y, z;
+        x = 11;
+        y = 12;
+        z = x + y;
+
+        document.getElementById("pl").innerHTML = 
+        "The value of z is " + z + ".";
     </script>
 </body>
 </html>
