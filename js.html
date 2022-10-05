@@ -43,18 +43,25 @@
     <button onclick="window.print()">Print this page</button>
 
     <p id="pl"></p>
+
+    <p id="va"></p>
     
     <script>
-        document.getElementById("dig").innerHTML = 1 + 2;
+        document.getElementById("dig").innerHTML = (1 + 2)*10;
         
         let x, y, z;
         x = 11;
-        y = 12;
+        y = 12.0; // 뒤에 꽁다리는 z에 반영 안 된다. 23.0은 의미 없으므로?
         z = x + y;
 
         // 한 줄로 늘여쓰는 것도 가능, 단 Semicolons로 구분하는 것만 잘 지키면 됨 : x = 11; y = 12; z = x + y; 
         document.getElementById("pl").innerHTML = 
         "The value of z is " + z + ".";
+        
+        var h;
+        h = 7;
+        document.getElementById("va").innerHTML = h*10;
     </script>
+    <h3 class="js2"><a href="./js2.html">js2</a></h3>
 </body>
 </html>
