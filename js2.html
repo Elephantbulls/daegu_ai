@@ -14,6 +14,21 @@
 
     <p id="demo"></p>
 
+    <p>Strings are written with quotes.</p>
+    <p>Numbers are written without quotes.</p>
+
+    <p id="demo2"></p>
+
+    <p id="demo3"></p>
+
+    <p id="demo4"></p>
+
+    <p id="demo5"></p>
+
+    <p id="demo6"></p>
+
+    <p id="demo7"></p>
+
     <script>
         /*
         There are two seminars. 
@@ -30,6 +45,31 @@
        1. var 대신에 let도 가능하고, 아무 것도 안 쓰고도 가능하다. 대신 2015년 이전 브라우저 관련 작업에서는 무조건 var을 써야한다.
        2. const는 변경 불가능, let은 변경 가능. 
        */
+
+       const pi = 3.14;
+       let person = "John Doe";
+       let answer = 'Yes I am!';
+
+       document.getElementById("demo2").innerHTML =
+       pi + "<br>" + person + "<br>" + answer;
+
+       let price = 200; carName = "Volvo";
+       document.getElementById("demo3").innerHTML = carName;
+
+       let football;
+       document.getElementById("demo4").innerHTML = football;
+
+       var fruits = "Apple";
+       var fruits;
+       document.getElementById("demo5").innerHTML = fruits;
+
+       // You cannot re-declare a variable declared with let or const. This will not work.
+        
+       let h = "4" + 1 + 4;
+       document.getElementById("demo6").innerHTML = h;
+
+       let g = 2 + 3 + "5";
+       document.getElementById("demo7").innerHTML = g;
     </script>
 </body>
 </html>
