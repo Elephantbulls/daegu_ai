@@ -8,11 +8,28 @@
     <link rel="stylesheet" href="./css/js2.css">
 </head>
 <body>
+    <h1>JavaScript Variables</h1>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo"></p>
+
     <script>
         /*
         There are two seminars. 
         first one is on "come on baby" from 6:30 to 8:30P.M. every friday.
         */
+      const price1 = 5;
+      const price2 = 6;
+      let total = price1 + price2;
+       document.getElementById("demo").innerHTML =
+       "The total is: " + total;
+
+       /* 
+       0. Variables are containers for storing values.
+       1. var 대신에 let도 가능하고, 아무 것도 안 쓰고도 가능하다. 대신 2015년 이전 브라우저 관련 작업에서는 무조건 var을 써야한다.
+       2. const는 변경 불가능, let은 변경 가능. 
+       */
     </script>
 </body>
 </html>
