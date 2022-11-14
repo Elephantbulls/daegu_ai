@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="./css/js3.css">
 </head>
 <body>
-    
+    <h2>Redeclaring a Variable Using let by w3schools.com</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = 10;
+        // Here x is 10
+
+        {
+            let x = 2;
+            // Here x is 2
+        }
+
+        // Here x is 10
+        document.getElementById("demo").innerHTML = x;
+    </script>
+
+    <h2>JavaScript let</h2>
+
+    <p>Redeclaring a JavaScript variable with var by w3schools.com</p>
+
+    <p id="demo2"></p>
+
+    <script>
+        var y = 2;
+        // Now y is 2
+
+        var y = 3;
+        // Now y is 3
+
+        document.getElementById("demo2").innerHTML = y;
+    </script>
+
+    <h2>JavaScript Hoisting</h2>
+
+    <p>With <b>var</b>, you can use a variable before it is declared:</p>
+
+    <p id="demo3"></p>
+
+    <script>
+        carName = "Volvo";
+        document.getElementById("demo3").innerHTML = carName;
+        var carName
+    </script>
 </body>
 </html>
