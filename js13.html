@@ -67,5 +67,334 @@
         let part5 = text5.slice(-12, -6)
         document.getElementById("demo5").innerHTML = part5;
     </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>The substring() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+    <p id="demo6"></p>
+
+    <script>
+        let str = "Apple, Banana, Kiwi";
+        document.getElementById("demo6").innerHTML = str.substring(7, 13);
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>The substr() method extract a part of a String
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo7"></p>
+
+    <script>
+        let str2 = "Apple, Banana, Kiwi";
+        document.getElementById("demo7").innerHTML = str.substr(7, 6); 
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>The substr() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+    <p id="demo8"></p>
+
+    <script>
+        let str3 = "Apple, Banana, Kiwi";
+        document.getElementById("demo8").innerHTML = str.substr(7); 
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>The substr() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+    <p id="demo9"></p>
+    
+    <script>
+        let str4 = "Apple, Banana, Kiwi";
+        document.getElementById("demo9").innerHTML = str.substr(-4);
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo10">Please visit Microsoft!</p>
+
+    <script>
+        function myFunction() {
+            let text = document.getElementById("demo10").innerHTML;
+            document.getElementById("demo10").innerHTML = 
+            text.replace("Microsoft", "W3Schools");
+        }
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction2()">Try it</button>
+
+    <p id="demo11">Please visit Microsoft and Microsoft!</p>
+
+    <script>
+        function myFunction2() {
+            let text = document.getElementById("demo11").innerHTML;
+            document.getElementById("demo11").innerHTML = 
+            text.replace("Microsoft", "W3Schools");
+        }
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Try to replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction3()">Try it</button>
+
+    <p id="demo12">Please visit Microsoft!</p>
+
+    <script>
+        function myFunction3() {
+            let text = document.getElementById("demo12").innerHTML;
+            document.getElementById("demo12").innerHTML = 
+            text.replace("MICROSOFT", "W3Schools");
+        }
+    </script>
+
+    <p>The replace() method is case sensitive. MICROSOFT (with upper-case) will not be replaced.</p>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction4()">Try it!</button>
+
+    <p id="demo13">Please visit Microsoft!</p>
+
+    <script>
+        function myFunction4() {
+            let text = document.getElementById("demo13").innerHTML;
+            document.getElementById("demo13").innerHTML = 
+            text.replace(/MICROSOFT/i, "W3Schools");
+        }
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Replace all occurrences of "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+    <button onclick="myFunction5()">Try it</button>
+
+    <p id="demo14">Please visit Microsoft and Microsoft!</p>
+
+    <script>
+        function myFunction5() {
+            let text = document.getElementById("demo14").innerHTML;
+            document.getElementById("demo14").innerHTML = 
+            text.replace(/Microsoft/g, "W3Schools");
+        }
+    </script>
+
+    <h1>JavaScript Strings by w3schools</h1>
+    <h2>The replaceAll() Method</h2>
+
+    <p>ES2021 introduced the string method replaceAll().</p>
+
+    <p id="demo15"></p>
+
+    <script>
+        let text6 = "I love cats. Cats are very easy to love. Cats are very popular."
+        text6 = text6.replaceAll("Cats", "Dogs");
+        text6 = text6.replaceAll("cats", "dogs");
+        
+        document.getElementById("demo15").innerHTML = text6;
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Convert string to upper case:</p>
+
+    <button onclick="myFunction6()">Try it</button>
+
+    <p id="demo16">Hello World!</p>
+
+    <script>
+        function myFunction6() {
+            let text = document.getElementById("demo16").innerHTML;
+            document.getElementById("demo16").innerHTML = 
+            text.toUpperCase();
+        }
+    </script>
+
+    <h1>JavaScript String Methods by w3schools</h1>
+    <p>Convert string to lower case:</p>
+
+    <button onclick="myFunction7()">Try it</button>
+
+    <p id="demo17">Hello World!</p>
+
+    <script>
+        function myFunction7() {
+            let text = document.getElementById("demo17").innerHTML;
+            document.getElementById("demo17").innerHTML = 
+            text.toLowerCase();
+        }
+    </script>
+
+    <h2>JavaScript String Methods by w3schools</h2>
+
+    <p>The concat() method joins two or more strings:</p>
+
+    <p id="demo18"></p>
+
+    <script>
+        let text7 = "Hello";
+        let text8 = "World!";
+        let text9 = text7.concat(" ", text8);
+        document.getElementById("demo18").innerHTML = text9; 
+    </script>
+
+    <h1>JavaScript Strings by w3schools</h1>
+    <h2>The trim() Method</h2>
+
+    <p id="demo19"></p>
+
+    <script>
+        let text10 = "          Hello World!            ";
+        let text11 = text10.trim();
+
+        document.getElementById("demo19").innerHTML =
+        "Length text10 = " + text10.length + "<br>Length text11 = " + text11.length;
+    </script>
+
+<h1>JavaScript Strings by w3schools</h1>
+<h2>The trimStart() Method</h2>
+
+<p id="demo20"></p>
+
+<script>
+    let text12 = "          Hello World!            ";
+    let text13 = text12.trimStart();
+
+    document.getElementById("demo20").innerHTML =
+    "Length text12 = " + text12.length + "<br>Length text13 = " + text13.length;
+</script>
+
+<h1>JavaScript Strings by w3schools</h1>
+<h2>The trimEnd() Method</h2>
+
+<p id="demo21"></p>
+
+<script>
+    let text14 = "          Hello World!            ";
+    let text15 = text14.trimEnd();
+
+    document.getElementById("demo21").innerHTML =
+    "Length text14 = " + text14.length + "<br>Length text15 = " + text15.length;
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<p>The padStart() method pads a string with another string:</p>
+
+<p id="demo22"></p>
+
+<script>
+    let text16 = "5";
+    document.getElementById("demo22").innerHTML = text16.padStart(4, "x");
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<p>The padStart() method pads a string with another string:</p>
+
+<p id="demo23"></p>
+
+<script>
+    let numb = 5;
+    let text17 = numb.toString();
+    document.getElementById("demo23").innerHTML = text17.padStart(4, 0);
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<p>The padEnd() method pads a string with another string:</p>
+
+<p id="demo24"></p>
+
+<script>
+    let text18 = "5";
+    document.getElementById("demo24").innerHTML = text18.padEnd(4, "x");
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<p>The padEnd() method pads a string with another string:</p>
+
+<p id="demo25"></p>
+
+<script>
+    let numbe = 5;
+    let text19 = numbe.toString();
+    document.getElementById("demo25").innerHTML = text19.padEnd(4, "x");
+</script>
+
+<h2>JavaScript String Methods by w3schools</h2>
+
+<p>The charAt() method returns the character at a given position in a string:</p>
+
+<p id="demo26"></p>
+
+<script>
+    var text20 = "HELLO WORLD";
+    document.getElementById("demo26").innerHTML = text20.charAt(0);
+</script>
+
+<h2>JavaScript String Methods by w3schools</h2>
+
+<p>The charCodeAt() method returns the unicode of the character at a given position in a string:</p>
+
+<p id="demo27"></p>
+
+<script>
+    let text21 = "HELLO WORLD";
+    document.getElementById("demo27").innerHTML = text21.charCodeAt(0);
+</script>
+
+<h1>JavaScript Strings by w3schools</h1>
+<p>Property access on strings:</p>
+
+<p id="demo28"></p>
+
+<script>
+    var stri = "HELLO WORLD";
+    document.getElementById("demo28").innerHTML = stri[0];
+</script>
+
+<h1>JavaScript Strings by w3schools</h1>
+<p>Property access on strings are read only:</p>
+
+<p id="demo29"></p>
+
+<script>
+    let text22 = "HELLO WORLD";
+    text22[0] = "A"; // Does not work
+
+    document.getElementById("demo29").innerHTML = text22;
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<p>Display the first array element, after a string split:</p>
+
+<p id="demo30"></p>
+
+<script>
+    let text23 = "a,b,c,d,e,f";
+    const myArray = text23.split(",");
+    document.getElementById("demo30").innerHTML = myArray[0];
+</script>
+
+<h1>JavaScript String Methods by w3schools</h1>
+<h2>The split().Method</h2>
+
+<p id="demo31"></p>
+
+<script>
+    let text24 = "Hello";
+    const myArr = text24.split("");
+
+    text24 = "";
+    for (let i = 0; i < myArr.length; i++) {
+        text24 += myArr[i] + "<br>"
+    }
+    document.getElementById("demo31").innerHTML = text24;
+</script>
+
 </body>
 </html>
