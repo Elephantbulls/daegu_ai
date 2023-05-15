@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/js20.css">
+</head>
+<body>
+    <h1>JavaScript Arrayys by w3wschools</h1>
+
+    <p id="demo"></p>
+
+    <script>
+        const cars = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo").innerHTML = cars;
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p id="demo2"></p>
+
+    <script>
+        const cars2 = [
+            "Saab",
+            "Volvo",
+            "BMW"
+        ];
+        document.getElementById("demo2").innerHTML = cars2; 
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+
+    <p id="demo3"></p>
+
+    <script>
+        const cars3 = [];
+        cars3[0] = "Saab";
+        cars3[1] = "Volvo";
+        cars3[2] = "BMW";
+        document.getElementById("demo3").innerHTML = cars3;
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p id="demo4"></p>
+
+    <script>
+        const cars4 = new Array("Saab", "Volvo", "BMW");
+        document.getElementById("demo4").innerHTML = cars4;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>Bracket Indexing</h2>
+
+    <p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+
+    <p id="demo5"></p>
+
+    <script>
+        const cars5 = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo5").innerHTML = cars5[1];
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>Bracket Indexing</h2>
+
+    <p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+    <p id="demo6"></p>
+
+    <script>
+        const cars6 = ["Saab", "Volvo", "BMW"];
+        cars6[0] = "람보르기니";
+        document.getElementById("demo6").innerHTML = cars6;
+    </script>
+
+    <h2>JavaScript Objects by w3wschools</h2>
+    <p>JavaScript uses names to access object properties.</p>
+    <p id="demo7"></p>
+
+    <script>
+        const person = {firstName:"John", lastName:"Doe", age:46};
+        document.getElementById("demo7").innerHTML = person.lastName;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>The length Property</h2>
+    <p>The length property returns the length of an array:</p>
+
+    <p id="demo8"></p>
+
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        let size = fruits.length;
+        document.getElementById("demo8").innerHTML = size;
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>JavaScript array elements are accesses using numeric indexes (starting from 0).</p>
+
+    <p id="demo9"></p>
+
+    <script>
+        var fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo9").innerHTML = fruits2[fruits2.length-2];
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>The best way to loop through an array is using a standard for loop:</p>
+
+    <p id="demo10"></p>
+
+    <script>
+        const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+        let fLen = fruits3.length;
+
+        let text = "<ul>";
+            for (let i = 0; i < fLen; i++) {
+                text += "<li>" + fruits3[i] + "</li>";
+            }
+            text += "</ul>";
+
+            document.getElementById("demo10").innerHTML = text;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>The forEach() Method</h2>
+    <p>Array.forEach() calls a function for each array element.</p>
+
+    <p id="demo11"></p>
+
+    <script>
+        const fruits4 = ["Banana", "Orange", "Apple", "Mango"];
+        
+        let text2 = "<ul>";
+            fruits4.forEach(myFunction);
+            text2 += "</ul>";
+
+            document.getElementById("demo11").innerHTML = text2;
+
+            function myFunction(value) {
+                text2 += "<li>" + value + "</li>"; 
+            }
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>The push() Method</h2>
+
+    <p>The push method appends a new element to an array.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo12"></p>
+
+    <script>
+        const fruits5 = ["Banana", "Orange", "Apple"];
+        document.getElementById("demo12").innerHTML = fruits5;
+        
+        function myFunction() {
+            fruits5.push("Lemon");
+            document.getElementById("demo12").innerHTML = fruits5;
+        }
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+
+    <p>The length property provides an easy way to append new elements to an array without
+        using the push() method.
+    </p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo13"></p>
+
+    <script>
+        const fruits6 = ["Banana", "Orange", "Apple"];
+        document.getElementById("demo13").innerHTML = fruits6;
+
+        function myFunction() {
+            fruits6[fruits6.length] = "Melon";
+            document.getElementById("demo13").innerHTML = fruits6;
+        }
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>Adding elements with high indexes can create undefined "holes" in an array.</p>
+
+    <p id="demo14"></p>
+
+    <script>
+        const fruits7 = ["Banana", "Orange", "Apple"];
+        fruits7[6] = "Lemon";
+
+        let fLen2 = fruits7.length;
+        let text3 = "";
+        for (i = 0; i < fLen2; i++) {
+            text3 += fruits7[i] + "<br>";
+        }
+
+        document.getElementById("demo14").innerHTML = text3;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+
+    <p id="demo15"></p>
+
+    <script>
+        const person2 = [];
+        person2[0] = "John";
+        person2[1] = "Doe";
+        person2[2] = 46;
+        document.getElementById("demo15").innerHTML = 
+        person2[0] + " " + person2.length;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+
+    <p>If you use a named index when accessing an array, JavaScript will redefine
+        the array to a standard object, and some array methods and properties
+        will produce undefined or incorrect result.
+    </p>
+
+    <p id="demo16"></p>
+
+    <script>
+        const person3 = [];
+        person3["firstName"] = "John";
+        person3["lastName"] = "Doe";
+        person3["age"] = 46;
+        document.getElementById("demo16").innerHTML =
+        person3[0] + " " + person3.length;
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>Avoid using new Array(). Use [] instead.</p>
+
+    <p id="demo17"></p>
+
+    <script>
+        // const points = new Array(40, 100, 1, 5, 25, 10);
+        const points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo17").innerHTML = points[0];
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>Avoid using new Array().</p>
+
+    <p id="demo18"></p>
+
+    <script>
+        var points2 = new Array(40);
+        document.getElementById("demo18").innerHTML = points2;
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>Avoid using new Array().</p>
+
+    <p id="demo19"></p>
+
+    <script>
+        var points3 = new Array(40);
+        document.getElementById("demo19").innerHTML = points3[0];
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>The typeof operator, when used on an array, returns object:</p>
+
+    <p id="demo20"></p>
+
+    <script>
+        const fruits8 = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo20").innerHTML = typeof fruits8;
+    </script>
+
+    <h1>JavaScript Arrays by w3wschools</h1>
+    <h2>The isArray() Method</h2>
+
+    <p id="demo21"></p>
+
+    <script>
+        const fruits9 = ["Banana", "Orange", "Apple"];
+        document.getElementById("demo21").innerHTML = Array.isArray(fruits9);
+    </script>
+
+    <h2>JavaScript Arrays by w3wschools</h2>
+
+    <p>The instanceof operator returns true when used on an array:</p>
+
+    <p id="demo22"></p>
+
+    <script>
+        var fruits10 = ["Banana", "Orange", "Apple"];
+        document.getElementById("demo22").innerHTML = fruits instanceof Array;
+    </script>
+</body>
+</html>
